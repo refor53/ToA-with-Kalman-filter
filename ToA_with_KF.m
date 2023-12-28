@@ -28,6 +28,7 @@ ToA.my_aPos_state_s  = zeros(10,11);
 
 % set errors
 ToA.error_s = zeros(5,11);
+ToA.error_v_k_s = zeros(5,11);
 ToA.error_kf_s = zeros(5,11);
 ToA.my_error_kf_s = zeros(4,11);
 
